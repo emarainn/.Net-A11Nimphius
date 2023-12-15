@@ -76,7 +76,6 @@ namespace MovieLibraryEntities.Dao
                 db.SaveChanges();
             }
 
-
             // User Input Genres
             var allGenres = _context.Genres.ToList();
             var maxGenreId = allGenres.Count();
@@ -128,11 +127,8 @@ namespace MovieLibraryEntities.Dao
                             var movGen = new MovieGenre();
                             movGen.Movie = movie;
 
-                            using (var db = new MovieContext())
-                            {
-                                db.Add(movGen);
-                                db.SaveChanges();
-                            }
+                            _context.MovieGenres.Add(movGen);
+                            _context.SaveChanges();
 
                         }
 

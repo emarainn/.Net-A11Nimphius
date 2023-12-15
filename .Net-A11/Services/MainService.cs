@@ -20,6 +20,21 @@ public partial class MainService : IMainService
 
     public void Invoke()
     {
+        MainMenu();
+    }
+
+    public void NewUser()
+    {
+
+
+
+        Console.WriteLine("Enter Username: ");
+        string newUserName = Console.ReadLine();
+
+    }
+
+    public void MainMenu()
+    {
         string choice;
         do
         {
@@ -45,7 +60,7 @@ public partial class MainService : IMainService
                 Console.WriteLine(_repository.AddMovie());
                 _logger.LogInformation("Movie Added To Database");
             }
-            else if (choice == "4") 
+            else if (choice == "4")
             {
                 EditRecordInput();
             }
