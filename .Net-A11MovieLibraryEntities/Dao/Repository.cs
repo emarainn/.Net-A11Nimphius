@@ -70,11 +70,8 @@ namespace MovieLibraryEntities.Dao
             var movie = new Movie();
             movie.Title = movieT;
 
-            using (var db = new MovieContext())
-            {
-                db.Add(movie);
-                db.SaveChanges();
-            }
+            _context.Movies.Add(movie);
+            _context.SaveChanges();
 
             // User Input Genres
             var allGenres = _context.Genres.ToList();
@@ -126,6 +123,7 @@ namespace MovieLibraryEntities.Dao
 
                             var movGen = new MovieGenre();
                             movGen.Movie = movie;
+                            movGen.Genre = genres;
 
                             _context.MovieGenres.Add(movGen);
                             _context.SaveChanges();
@@ -159,40 +157,34 @@ namespace MovieLibraryEntities.Dao
             var genre = new Genre();
             genre.Name = newGenre;
 
-            using (var db = new MovieContext())
-            {
-                db.Add(genre);
-                db.SaveChanges();
-            }
+            _context.Genres.Add(genre);
+            _context.SaveChanges();
             return genre;
         }
 
         void IRepository.RecordVerification(int userInput)
         {
-            using (var db = new MovieContext())
+            var allMovies = _context.Movies
+                .Include(x => x.MovieGenres)
+                .ThenInclude(x => x.Genre)
+                .ToList();
+
+            var record = allMovies.Where(movie => movie.Id == userInput);
+
+            foreach (var movie in record)
             {
+                Console.WriteLine($"_______________________________________________" +
+                    $"\n\tID: {movie.Id}" +
+                    $"\n\tTitle: {movie?.Title}" +
+                    $"\n\tRelease Date: {movie?.ReleaseDate:MM-dd-yyyy}" +
+                    $"\n\tGenres: ");
 
-                var allMovies = db.Movies
-                    .Include(x => x.MovieGenres)
-                    .ThenInclude(x => x.Genre)
-                    .ToList();
-
-                var record = allMovies.Where(movie => movie.Id == userInput);
-
-                foreach (var movie in record)
+                foreach (var genre in movie?.MovieGenres ?? new List<MovieGenre>())
                 {
-                    Console.WriteLine($"_______________________________________________" +
-                        $"\n\tID: {movie.Id}" +
-                        $"\n\tTitle: {movie?.Title}" +
-                        $"\n\tRelease Date: {movie?.ReleaseDate:MM-dd-yyyy}" +
-                        $"\n\tGenres: ");
-
-                    foreach (var genre in movie?.MovieGenres ?? new List<MovieGenre>())
-                    {
-                        Console.WriteLine($"\t\t{genre.Genre.Name}");
-                    }
+                    Console.WriteLine($"\t\t{genre.Genre.Name}");
                 }
             }
+
 
         }
     }

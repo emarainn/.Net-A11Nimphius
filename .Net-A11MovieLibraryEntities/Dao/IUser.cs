@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MovieLibraryEntities.Dao
 {
-    internal class IUser
+    public interface IUser
     {
     }
 }
