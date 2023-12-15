@@ -7415,11 +7415,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
+      "projectUniqueName": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
       "projectName": "MovieLibraryEntities",
-      "projectPath": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
+      "projectPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
       "packagesPath": "C:\\Users\\emani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\obj\\",
+      "outputPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emani\\AppData\\Roaming\\NuGet\\NuGet.Config",

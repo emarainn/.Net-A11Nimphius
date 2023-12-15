@@ -4,8 +4,10 @@ namespace MovieLibraryEntities.Dao
 {
     public interface IRepository
     {
-        IEnumerable<Movie> GetAll();
-        IEnumerable<Movie> Search(string searchString);
+        IEnumerable<Movie> GetAll(int numItem);
+        void Search(string stringSearch);
         Movie AddMovie();
+        void RecordVerification(int userInput);
+
     }
 }

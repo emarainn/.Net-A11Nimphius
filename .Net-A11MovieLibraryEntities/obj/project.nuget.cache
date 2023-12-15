@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BPHcstkwSswmLfiUkf4kUo7Se3nfHKprvgZeNdqCdcbvLehIg79R2NZ0spsWcdDHT0Upv5ErnL88Vgjuna0Yqw==",
+  "dgSpecHash": "9G1NVA1pDgN5+AVqUofaYY5DH6L+wM2KTX4ffyDOlgWjRJszHur4b1+X7avQ5Z2yzJMfT8JVtU2SBdjY9ND6pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
+  "projectFilePath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emani\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\emani\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

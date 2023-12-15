@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emani\\A11Final\\.Net-A11\\MovieRepository.csproj": {}
+    "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11\\MovieRepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj": {
+    "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
+        "projectUniqueName": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
         "projectName": "MovieLibraryEntities",
-        "projectPath": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
+        "projectPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj",
         "packagesPath": "C:\\Users\\emani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\obj\\",
+        "outputPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\emani\\A11Final\\.Net-A11\\MovieRepository.csproj": {
+    "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11\\MovieRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emani\\A11Final\\.Net-A11\\MovieRepository.csproj",
+        "projectUniqueName": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11\\MovieRepository.csproj",
         "projectName": "MovieRepository",
-        "projectPath": "C:\\Users\\emani\\A11Final\\.Net-A11\\MovieRepository.csproj",
+        "projectPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11\\MovieRepository.csproj",
         "packagesPath": "C:\\Users\\emani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emani\\A11Final\\.Net-A11\\obj\\",
+        "outputPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj": {
-                "projectPath": "C:\\Users\\emani\\A11Final\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj"
+              "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj": {
+                "projectPath": "C:\\Users\\emani\\OneDrive\\Desktop\\.Net-FinalNimphius\\.Net-A11MovieLibraryEntities\\MovieLibraryEntities.csproj"
               }
             }
           }
